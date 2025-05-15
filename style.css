@@ -43,6 +43,10 @@ header a{
     padding: 20px;
 }
 
+.secao2 p{
+    margin-left: 20px;
+}
+
 .content1 img{
     width: 250px;
 }
@@ -133,7 +137,7 @@ h3{
     font-weight: bold;
 }
 
-@media (max-width: 782px) {
+@media (max-width: 895px) {
     header a{
         display: none;
     }
@@ -180,16 +184,19 @@ h3{
         flex-wrap: wrap;
         text-align: center;
         gap: 20px;
+        font-size: 30px;
     }
 
     .content2{
         flex-wrap: wrap;
         text-align: center;
         gap: 20px; 
-        font-size: 13px;
+        font-size: 20px;
     }
 
     .avaliacao{
         width: 260px;
     }
 }
+
+
