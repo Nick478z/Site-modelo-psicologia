@@ -70,6 +70,7 @@ header a{
     display: flex;
     flex-direction: column;
     padding: 20px;
+    line-height: 1.2;
 }
 
 h2{
@@ -85,7 +86,7 @@ h2{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    font-size: 25px;
+    font-size: 2rem;
     color: #514a60;
     gap: 90px;
 }
@@ -157,7 +158,7 @@ h3{
         flex-wrap: wrap;
         text-align: center;
         gap: 20px; 
-        font-size: 20px;
+        font-size: 1.6rem;
     }
 
     .content3{
@@ -191,12 +192,11 @@ h3{
         flex-wrap: wrap;
         text-align: center;
         gap: 20px; 
-        font-size: 20px;
+        font-size: 1.2rem;
     }
 
     .avaliacao{
         width: 260px;
     }
 }
-
 
