@@ -89,6 +89,7 @@ h2{
     font-size: 2rem;
     color: #514a60;
     gap: 90px;
+    text-align: justify;
 }
 
 .content2 img{
@@ -171,7 +172,7 @@ h3{
     }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 670px) {
     header a{
         display: none;
     }
@@ -199,4 +200,3 @@ h3{
         width: 260px;
     }
 }
-
