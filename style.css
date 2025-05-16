@@ -78,7 +78,7 @@ h2{
     font-size: 45px;
     font-weight: 800;
     color: #514a60;
-    scroll-margin-top: 100px;
+    scroll-margin-top: 110px;
     margin-bottom: 40px;
 }
 
@@ -139,6 +139,28 @@ h3{
     font-weight: bold;
 }
 
+.whats-botao img{
+    width: 90px;
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    border-radius: 100px;
+}
+
+#avaliacao{
+    color: #f4f1ec;
+}
+
+footer{
+    padding: 7px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5rem;
+    background-color: #f4f1ec;
+    border-top: 4px solid #514a60;
+}
+
+
 @media (max-width: 895px) {
     header a{
         display: none;
@@ -164,7 +186,7 @@ h3{
 
     .content3{
         flex-direction: column;
-        gap: 10px;
+        gap: 20px;
     }
 
     .avaliacao{
@@ -199,4 +221,12 @@ h3{
     .avaliacao{
         width: 260px;
     }
+
+    .whats-botao img{
+    width: 70px;
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
 }
+}
+
